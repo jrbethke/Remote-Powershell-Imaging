@@ -61,7 +61,7 @@ The following items are in the `local-Imager` folder:
 
 - Launch a terminal window with admin privileges and navigate to where the scripts and folders were copied to.
 
-- Run the following command to start the imaging process:
+- Run a similar command with your own values to start the imaging process:
 
 ```powershell
 .\Remote-Imager.ps1 -site "Company" -pctype "PC" -start 1 -end 5 -user "Domain\admin"
